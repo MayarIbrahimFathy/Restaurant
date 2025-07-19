@@ -1,0 +1,422 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+body,
+html {
+  /* scroll-behavior: smooth; */
+}
+/* #navbar .scroll {
+  background-color: #fff;
+  color: black;
+  position: fixed;
+} */
+#home {
+  background-image: url(../imgs/bg.jpg);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+#home.overlay::before {
+  content: "";
+  background: url('../imgs/bg.jpg') center/cover no-repeat fixed; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+#home.overlay {
+  background: rgba(0, 0, 0, 0.7); 
+  position: relative;
+  z-index: 1;
+}
+
+#home h5 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#home span {
+  font-size: 4rem;
+}
+.animation span::after {
+  content: '|';
+  animation-name: h1;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+  font-weight: 400;
+}
+
+@keyframes h1 {
+  0% {
+    content: 'L |';
+  }
+  2% {
+    content: 'La|';
+  }
+  4% {
+    content: 'Lar|';
+  }
+  6% {
+    content: 'Larr|';
+  }
+  8% {
+    content: 'Larry D|';
+  }
+  10% {
+    content: 'Larry Da|';
+  }
+  12% {
+    content: 'Larry Dan|';
+  }
+  14% {
+    content: 'Larry Dani|';
+  }
+  16% {
+    content: 'Larry Danie|';
+  }
+  18% {
+    content: 'Larry Daniel|';
+  }
+  20% {
+    content: 'Larry Daniels|';
+  }
+  22% {
+    content: 'Larry Daniel|';
+  }
+  24% {
+    content: 'Larry Dan|';
+  }
+  26% {
+    content: 'Daniel|';
+  }
+  28% {
+    content: 'Danie|';
+  }
+  30% {
+    content: 'Dani|';
+  }
+  32% {
+    content: 'Dan|';
+  }
+  34% {
+    content: 'Dan|';
+  }
+  36% {
+    content: 'Da|';
+  }
+  38% {
+    content: 'D|';
+  }
+  40% {
+    content: 'De|';
+  }
+  42% {
+    content: 'Dev|';
+  }
+  44% {
+    content: 'Deve|';
+  }
+
+  46% {
+    content: 'Devel|';
+  }
+  48% {
+    content: 'Develo|';
+  }
+  50% {
+    content: 'Develop|';
+  }
+  52% {
+    content: 'Develope|';
+  }
+  54% {
+    content: 'Developer|';
+  }
+  56% {
+    content: 'Develope|';
+  }
+  58% {
+    content: 'Develop|';
+  }
+  60% {
+    content: 'Develo|';
+  }
+  62% {
+    content: 'Devel|';
+  }
+  64% {
+    content: 'Deve|';
+  }
+  66% {
+    content: 'Dev|';
+  }
+  68% {
+    content: 'De|';
+  }
+  70% {
+    content: 'D|';
+  }
+
+  72% {
+    content: 'De|';
+  }
+  74% {
+    content: 'Des|';
+  }
+  76% {
+    content: 'Desi|';
+  }
+  78% {
+    content: 'Desig|';
+  }
+  80% {
+    content: 'Design|';
+  }
+  82% {
+    content: 'Designe|';
+  }
+  84% {
+    content: 'Designer|';
+  }
+  86% {
+    content: 'Designe|';
+  }
+  88% {
+    content: 'Design|';
+  }
+  90% {
+    content: 'Desig|';
+  }
+  92% {
+    content: 'Desi|';
+  }
+  94% {
+    content: 'Des|';
+  }
+  96% {
+    content: 'De|';
+  }
+  98% {
+    content: 'D|';
+  }
+  100% {
+    content: ' |';
+  }
+}
+#home .icon {
+  width: 2rem;
+  height: 2rem;
+}
+#about p {
+  color: #748182;
+  font-size: 15px;
+}
+#about button {
+  margin-top: 10%;
+  padding: 8px 25px;
+  background-color: white;
+  color: #000000;
+  border-radius: 6px;
+}
+#about .bg-btn {
+  padding: 8px 30px;
+  background-color: #1c1c1c;
+  color: white;
+}
+#about .bg-btn:hover {
+  background-color: white;
+  color: #000000;
+}
+#about button:hover {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+#services {
+  background-color: #f7f7f7;
+}
+#services p {
+  color: #748182;
+}
+
+#services h3,
+#portfolio h3,
+#testimonials h3,
+#team h3,
+#contact h3 {
+  font-weight: 900;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+}
+#services h3 .border,
+#portfolio h3 .border,
+#testimonials h3 .border,
+#team h3 .border,
+#contact h3 .border {
+  position: absolute;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  width: 50%;
+}
+
+#portfolio img {
+  width: 22rem;
+}
+#portfolio img:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  opacity: 1;
+  border: 5px solid #f7f7f7;
+}
+
+#portfolio .content {
+  left: 40%;
+  top: 40%;
+}
+#clients,
+#team {
+  background-color: #f7f7f7;
+}
+#clients .img img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.numbers p {
+  color: #748182;
+}
+.numbers .row h3 {
+  font-weight: 900;
+}
+#team .card {
+  background-color: #5a5a5a;
+  border-radius: 0 0 8px 8px;
+}
+#team .card img {
+  width: 100%;
+}
+#contact .form-control {
+  background-color: #f4f4f4;
+}
+.custom-btn {
+  background-color: white;
+  color: black;
+}
+
+.custom-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Custom NAV CSS */
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s;
+  
+}
+
+.navbar:hover {
+  background-color: #273745;
+  color: white;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+  transition: color 0.3s;
+}
+
+.navbar:hover .navbar-brand,
+.navbar:hover .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Icon Services */
+
+.container .rounded-2 {
+  position: relative;
+  transition: background-color 0.3s;
+}
+
+.container .rounded-2:hover {
+  background-color: black;
+}
+
+.container .rounded-2:hover .icon i {
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.overlay-info {
+  opacity: 0;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  );
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000000; 
+}
+
+.img:hover .overlay-info {
+  opacity: 1;
+}
+
+.card .content .overlay:hover img {
+  opacity: 0.5;
+}
+
+.card .content .overlay .icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .content .overlay:hover .icons {
+  display: flex;
+}
+#team:hover .icons{
+ 
+  display: flex;
+}
+
+.card .content .overlay .icons a {
+  margin: 0 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.testimonial-item {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonial-item p,
+.testimonial-item span {
+  font-size: 14px;
+  color: #748182;
+}
+
+#testimonials {
+  background-color: #f5f5f5;
+}
+#contact .bg {
+  background-color: #f4f4f4;
+  border-radius: 100%;
+  padding: 15px 15px;
+}
+
+#team .icons{
+  display: none;
+}
