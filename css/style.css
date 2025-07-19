@@ -3,22 +3,16 @@ body {
 }
 body,
 html {
-  /* scroll-behavior: smooth; */
 }
-/* #navbar .scroll {
-  background-color: #fff;
-  color: black;
-  position: fixed;
-} */
 #home {
-  background-image: url(../imgs/bg.jpg);
+  background-image: url(../images/bg.avif);
   background-size: cover;
   height: 100vh;
   position: relative;
 }
 #home.overlay::before {
   content: "";
-  background: url('../imgs/bg.jpg') center/cover no-repeat fixed; 
+  background: url('../images/bg.avif') center/cover no-repeat fixed; 
   position: absolute;
   top: 0;
   left: 0;
@@ -50,162 +44,65 @@ html {
 }
 
 @keyframes h1 {
-  0% {
-    content: 'L |';
-  }
-  2% {
-    content: 'La|';
-  }
-  4% {
-    content: 'Lar|';
-  }
-  6% {
-    content: 'Larr|';
-  }
-  8% {
-    content: 'Larry D|';
-  }
-  10% {
-    content: 'Larry Da|';
-  }
-  12% {
-    content: 'Larry Dan|';
-  }
-  14% {
-    content: 'Larry Dani|';
-  }
-  16% {
-    content: 'Larry Danie|';
-  }
-  18% {
-    content: 'Larry Daniel|';
-  }
-  20% {
-    content: 'Larry Daniels|';
-  }
-  22% {
-    content: 'Larry Daniel|';
-  }
-  24% {
-    content: 'Larry Dan|';
-  }
-  26% {
-    content: 'Daniel|';
-  }
-  28% {
-    content: 'Danie|';
-  }
-  30% {
-    content: 'Dani|';
-  }
-  32% {
-    content: 'Dan|';
-  }
-  34% {
-    content: 'Dan|';
-  }
-  36% {
-    content: 'Da|';
-  }
-  38% {
-    content: 'D|';
-  }
-  40% {
-    content: 'De|';
-  }
-  42% {
-    content: 'Dev|';
-  }
-  44% {
-    content: 'Deve|';
-  }
+  0% { content: 'L |'; }
+  2% { content: 'La|'; }
+  4% { content: 'La T|'; }
+  6% { content: 'La Ta|'; }
+  8% { content: 'La Tav|'; }
+  10% { content: 'La Tavo|'; }
+  12% { content: 'La Tavol|'; }
+  14% { content: 'La Tavola|'; }
+  16% { content: 'La Tavola |'; }
 
-  46% {
-    content: 'Devel|';
-  }
-  48% {
-    content: 'Develo|';
-  }
-  50% {
-    content: 'Develop|';
-  }
-  52% {
-    content: 'Develope|';
-  }
-  54% {
-    content: 'Developer|';
-  }
-  56% {
-    content: 'Develope|';
-  }
-  58% {
-    content: 'Develop|';
-  }
-  60% {
-    content: 'Develo|';
-  }
-  62% {
-    content: 'Devel|';
-  }
-  64% {
-    content: 'Deve|';
-  }
-  66% {
-    content: 'Dev|';
-  }
-  68% {
-    content: 'De|';
-  }
-  70% {
-    content: 'D|';
-  }
+  18% { content: 'La Tavola R|'; }
+  20% { content: 'La Tavola Re|'; }
+  22% { content: 'La Tavola Res|'; }
+  24% { content: 'La Tavola Rest|'; }
+  26% { content: 'La Tavola Resta|'; }
+  28% { content: 'La Tavola Restau|'; }
+  30% { content: 'La Tavola Restaura|'; }
+  32% { content: 'La Tavola Restauran|'; }
+  34% { content: 'La Tavola Restaurant|'; }
 
-  72% {
-    content: 'De|';
-  }
-  74% {
-    content: 'Des|';
-  }
-  76% {
-    content: 'Desi|';
-  }
-  78% {
-    content: 'Desig|';
-  }
-  80% {
-    content: 'Design|';
-  }
-  82% {
-    content: 'Designe|';
-  }
-  84% {
-    content: 'Designer|';
-  }
-  86% {
-    content: 'Designe|';
-  }
-  88% {
-    content: 'Design|';
-  }
-  90% {
-    content: 'Desig|';
-  }
-  92% {
-    content: 'Desi|';
-  }
-  94% {
-    content: 'Des|';
-  }
-  96% {
-    content: 'De|';
-  }
-  98% {
-    content: 'D|';
-  }
-  100% {
-    content: ' |';
-  }
+  36% { content: 'Pizza|'; }
+  38% { content: 'Pasta|'; }
+  40% { content: 'Chef|'; }
+  42% { content: 'Taste|'; }
+  44% { content: 'Italy|'; }
+
+  46% { content: 'Italy|'; }
+  48% { content: 'Ital|'; }
+  50% { content: 'Ita|'; }
+  52% { content: 'It|'; }
+  54% { content: 'I|'; }
+
+  56% { content: 'C|'; }
+  58% { content: 'Ch|'; }
+  60% { content: 'Che|'; }
+  62% { content: 'Chef|'; }
+  64% { content: 'Che|'; }
+  66% { content: 'Ch|'; }
+  68% { content: 'C|'; }
+
+  70% { content: 'T|'; }
+  72% { content: 'Ta|'; }
+  74% { content: 'Tas|'; }
+  76% { content: 'Tast|'; }
+  78% { content: 'Taste|'; }
+  80% { content: 'Tast|'; }
+  82% { content: 'Tas|'; }
+  84% { content: 'Ta|'; }
+  86% { content: 'T|'; }
+
+  88% { content: 'P|'; }
+  90% { content: 'Pa|'; }
+  92% { content: 'Pas|'; }
+  94% { content: 'Past|'; }
+  96% { content: 'Pasta|'; }
+  98% { content: 'Past|'; }
+  100% { content: ' |'; }
 }
+
 #home .icon {
   width: 2rem;
   height: 2rem;
@@ -234,6 +131,9 @@ html {
   background-color: #1c1c1c;
   color: white;
 }
+#about .who{
+  padding-top: 6%;
+}
 
 #services {
   background-color: #f7f7f7;
@@ -243,17 +143,79 @@ html {
 }
 
 #services h3,
-#portfolio h3,
-#testimonials h3,
+#gallery h3,
 #team h3,
 #contact h3 {
   font-weight: 900;
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
 }
+
+.service-card-1,
+.service-card-2,
+.service-card-3,
+.service-card-4,
+.service-card-5,
+.service-card-6 {
+  background-size: cover;
+  background-position: center;
+  color: gray;
+  position: relative;
+  overflow: hidden;
+  min-height: 350px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.service-card-1 {
+  background-image: url('../images/dine.webp');
+}
+.service-card-2 {
+  background-image: url('../images/takeaway.webp');
+}
+.service-card-3 {
+  background-image: url('../images/reserve.avif');
+}
+.service-card-4 {
+  background-image: url('../images/catring.avif');
+}
+.service-card-5 {
+  background-image: url('../images/dessert.avif');
+}
+.service-card-6 {
+  background-image: url('../images/cooking.avif');
+}
+
+.service-card-1::before,
+.service-card-2::before,
+.service-card-3::before,
+.service-card-4::before,
+.service-card-5::before,
+.service-card-6::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.service-card-1 *,
+.service-card-2 *,
+.service-card-3 *,
+.service-card-4 *,
+.service-card-5 *,
+.service-card-6 * {
+  position: relative;
+  z-index: 2;
+}
 #services h3 .border,
-#portfolio h3 .border,
-#testimonials h3 .border,
+#gallery h3 .border,
 #team h3 .border,
 #contact h3 .border {
   position: absolute;
@@ -262,16 +224,22 @@ html {
   width: 50%;
 }
 
-#portfolio img {
-  width: 22rem;
-}
-#portfolio img:hover {
-  background-color: rgba(255, 255, 255, 0.8);
-  opacity: 1;
-  border: 5px solid #f7f7f7;
+#gallery img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
 }
 
-#portfolio .content {
+#gallery .img {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+
+#gallery .content {
   left: 40%;
   top: 40%;
 }
@@ -279,6 +247,19 @@ html {
 #team {
   background-color: #f7f7f7;
 }
+
+#team .card {
+  background-color: #5a5a5a;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+#team .card img.team-img {
+  width: 100%;
+  height: 350px; /* fixed height */
+  object-fit: cover;
+}
+
 #clients .img img {
   width: 2rem;
   height: 2rem;
@@ -287,16 +268,11 @@ html {
 .numbers p {
   color: #748182;
 }
+
 .numbers .row h3 {
   font-weight: 900;
 }
-#team .card {
-  background-color: #5a5a5a;
-  border-radius: 0 0 8px 8px;
-}
-#team .card img {
-  width: 100%;
-}
+
 #contact .form-control {
   background-color: #f4f4f4;
 }
@@ -318,7 +294,7 @@ html {
 }
 
 .navbar:hover {
-  background-color: #273745;
+  background-color: #D2B48C;
   color: white;
 }
 
